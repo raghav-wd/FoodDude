@@ -1,0 +1,37 @@
+ ITEM RENDERING SCHEME
+ <div class="col s12 m6 l12">
+                <div class="card-panel teal">
+                    <span class="white-text">
+                        <div class="row">
+                            <div class="col s2 m6"><img class="scale-down circle" src="maggi.jpg"></div>
+                            <div class="col s10 m6">
+                                <div class="head">Magggi<span class="blue-text">(25)</span></div>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="card-panel white">
+                            <span class="black-text">
+                                MRP: <span class="right">15 X <span id="Maggi-nos">0</span>/-</span>
+                                <div class="divider"></div>
+                                Weight: <span class="right">68 Grams</span>
+                                <div class="divider"></div>
+                                <div class="seperator"></div>
+                                <div class="divider"></div>
+                                Total: <span class="right"><span id="Maggi-tot">0</span>/-</span>
+                                <form action="">
+                                    <div class="input-field inline">
+                                        <input id="Maggi-nos-inp" type="number" value="0">-->
+                                        <!-- <label for="items"></label>
+                                        <div class="btn waves-effect waves-light" onclick="selectnos(this)" data-nos="+1"
+                                            data-item-name="Maggi" data-price="15">+</div>
+                                        <div class="btn waves-effect waves-light" onclick="selectnos(this)" data-nos="-1"
+                                            data-item-name="Maggi" data-price="15">-</div>
+                                    </div>
+                                </form>
+                            </span>
+                        </div>
+                    </span>
+                </div>
+            </div> -->
+
+            

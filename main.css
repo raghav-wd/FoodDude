@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    margin: 0;
+
+}
+
+.background {
+    background-color: #eeeeee;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23cacaca' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.2;
+}
+
+.scale-down {
+    width: 50px;
+}
+
+.head {
+    font-size: 34px;
+    transform: translateX(-5%);
+    text-align: center;
+}
+
+.seperator {
+    width: 100%;
+    height: 5px;
+    background: rgb(230, 230, 230);
+}
+
+.checkout {
+    width: 100%;
+    /* position: fixed;
+    bottom: 100px; */
+}
+
+.bill {
+    font-size: 18px;
+}
+
+.proceed,
+.checkout {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cart {
+    padding-bottom: 50px;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+    height: 0;
+    opacity: 0;
+}
+
+#instock {
+    /* display: block; */
+    position: fixed;
+    width: auto;
+    height: 140px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media(max-width: 400px) {
+    #instock {
+        display: none;
+    }
+}
+
+.name {
+    padding-bottom: 10px;
+}
+
+.loader::after {
+    content: '.';
+    animation: loading 3s ease-in infinite;
+}
+
+@keyframes loading {
+    50% {
+        content: '..';
+    }
+
+    100% {
+        content: '...';
+    }
+}
