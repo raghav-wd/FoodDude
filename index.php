@@ -63,7 +63,7 @@
         <li><a class="" href="login/">Log In</a></li>
 
     </ul>
-    <h4 class="center notice" ></h4>
+    <h4 class="center" ></h4>
     <div class="row">
         <div class="container">
             <!-- Displaying Notice when site is off -->
@@ -142,13 +142,13 @@
                     site_status = JSON.parse(event.data.split('>>')[4]).sitestatus;
                     if(site_status == 'on')
                     {
-                        cn('status', '0').classList.remove('hide');
-                        // cn('notice', '0').classList.add('hide');
+                        // cn('status', '0').classList.remove('hide');
+                        cn('notice', '0').classList.add('hide');
                     }
                     else
                     {
-                        cn('status', '0').classList.add('hide');
-                        // cn('notice', '0').classList.remove('hide');
+                        // cn('status', '0').classList.add('hide');
+                        cn('notice', '0').classList.remove('hide');
                     }
                 };
                 } else {

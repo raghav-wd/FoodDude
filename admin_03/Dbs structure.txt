@@ -1,0 +1,51 @@
+---- orders
+
+	#	Name	Type	Collation	Attributes	Null	Default	Comments	Extra	Action
+	1	id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+More More
+	2	order_no	text	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+More More
+	3	paid	int(11)			No	None			Change Change	Drop Drop	
+More More
+	4	room_no	int(11)			No	None			Change Change	Drop Drop	
+More More
+	5	phno	bigint(12)			No	None			Change Change	Drop Drop	
+More More
+	6	oreo	int(11)			No	None			Change Change	Drop Drop	
+More More
+	7	maggi	int(11)			No	None			Change Change	Drop Drop	
+More More
+	8	kurkure	int(11)			No	None			Change Change	Drop Drop	
+More More
+	9	lays	int(11)			No	None			Change Change	Drop Drop	
+More More
+	10	p_meth	text	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+More More
+	11	Cash	int(11)			No	None			Change Change	Drop Drop	
+More More
+	12	G_pay	int(11)			No	None			Change Change	Drop Drop	
+More More
+	13	Paytm	int(11)			No	None			Change Change	Drop Drop	
+More More
+	14	time	text	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+More More
+	15	pickup	int(11)			No	None			Change Change	Drop Drop	
+More More
+
+
+--- site_status
+
+
+#	Name	Type	Collation	Attributes	Null	Default	Comments	Extra	Action
+	1	id Primary	int(11)			No	None		AUTO_INCREMENT	Change Change	Drop Drop	
+More More
+	2	site_status	text	utf8mb4_general_ci		No	None			Change Change	Drop Drop	
+More More
+	3	maggi_stock	int(11)			No	None			Change Change	Drop Drop	
+More More
+	4	oreo_stock	int(11)			No	None			Change Change	Drop Drop	
+More More
+	5	kurkure_stock	int(11)			No	None			Change Change	Drop Drop	
+More More
+	6	lays_stock	int(11)			No	None			Change Change	Drop Drop	
+More More
